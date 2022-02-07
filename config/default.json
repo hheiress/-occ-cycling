@@ -1,0 +1,12 @@
+{
+  "database": {
+    "host": "localhost",
+    "user": "pepe",
+    "password": "pepe1234",
+    "dbname": "occycling",
+    "port": 5432
+  },
+  "server": {
+    "port": 3000
+  }
+}

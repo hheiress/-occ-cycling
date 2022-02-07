@@ -1,0 +1,36 @@
+{
+  "name": "back-end-occycling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "migrate": "node migrations/init_db.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export NODE_ENV=default && nodemon server.js",
+    "production": "export NODE_ENV=production && node server.js"
+  },
+  "author": "JA",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "node-pg-migrate": "^5.9.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg": "^8.5.1",
+    "pgtools": "^0.3.2",
+    "pool": "^0.4.1",
+    "sharp": "^0.28.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

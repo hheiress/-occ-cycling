@@ -1,0 +1,13 @@
+{
+  "database": {
+    "host": "localhost",
+    "user": "ui6aehpk0xjoy",
+    "password": "w3ozljfuof2k",
+    "dbname": "dbiygumhk6qggh",
+    "port": 5432
+  },
+  "server": {
+    "port": 3306
+  }
+
+}
