@@ -1,13 +1,12 @@
 {
   "database": {
-    "host": "localhost",
-    "user": "ui6aehpk0xjoy",
-    "password": "w3ozljfuof2k",
-    "dbname": "dbiygumhk6qggh",
+    "host": "ec2-54-228-95-1.eu-west-1.compute.amazonaws.com",
+    "user": "nmpcpeciplrask",
+    "password": "00b3e5f732c94b135a34aa0e08383de21420018cdbe8e6614ca5d6a06328b1f3",
+    "dbname": "d1bitfu1ipoats",
     "port": 5432
   },
   "server": {
     "port": 3306
   }
-
 }
