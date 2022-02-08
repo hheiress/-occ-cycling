@@ -4,7 +4,8 @@
     "user": "nmpcpeciplrask",
     "password": "00b3e5f732c94b135a34aa0e08383de21420018cdbe8e6614ca5d6a06328b1f3",
     "dbname": "d1bitfu1ipoats",
-    "port": 5432
+    "port": 5432,
+    "enableRejectUnauthorized": true
   },
   "server": {
     "port": 3306

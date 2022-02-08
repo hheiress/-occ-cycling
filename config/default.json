@@ -4,7 +4,8 @@
     "user": "pepe",
     "password": "pepe1234",
     "dbname": "occycling",
-    "port": 5432
+    "port": 5432,
+    "enableRejectUnauthorized": false
   },
   "server": {
     "port": 3000
