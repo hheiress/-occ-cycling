@@ -6,8 +6,5 @@
     "dbname": "d1bitfu1ipoats",
     "port": 5432,
     "enableRejectUnauthorized": true
-  },
-  "server": {
-    "port": 3306
   }
 }

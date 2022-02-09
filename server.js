@@ -5,7 +5,7 @@ const routes = require("./routes.js");
 const pool = require("./db.js");
 const config = require('config');
 
-const PORT = config.get('server.port') || 3000;
+const webPort = process.env.PORT || 3001;
 
 const app = express();
 app.use(cors());
@@ -37,7 +37,7 @@ pool
     .then(client => {
         client.release()
         console.info("Connection to database successful. Starting express server.")
-        app.listen(PORT, () => console.log(`Server is listening on port ${PORT}. Ready to accept requests!`))
+        app.listen(webPort, () => console.log(`Server is listening on port ${webPort}. Ready to accept requests!`))
     }).catch(connectError => {
         console.error("Unable to connect to database: " + connectError.message)
         process.exit(1);

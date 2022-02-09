@@ -1,1 +1,1 @@
-web: node run production
+web: node run production $PORT
